@@ -1,5 +1,4 @@
 package com.pluralsight;
-
 import java.util.Scanner;
 
 public class Main {
@@ -19,6 +18,7 @@ public class Main {
         numb2 = Integer.parseInt(scanner.nextLine());
 
         //Input for calculations operations
+        //Used multiple "system.out"  instead of one for better readability
         System.out.println("Possible calculations :");
         System.out.println("(A)dd"); System.out.println("(S)ubtract");
         System.out.println("(M)ultiply)");System.out.println("(D)ivide");
