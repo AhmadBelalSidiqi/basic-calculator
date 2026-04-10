@@ -6,9 +6,8 @@ public class Main {
 
         double numb1;
         double numb2;
+        String menu;
         String operation;
-
-
         Scanner scanner = new Scanner(System.in);
 
         //Input for Two floating point numbers
@@ -18,12 +17,16 @@ public class Main {
         numb2 = Integer.parseInt(scanner.nextLine());
 
         //Input for calculations operations
-        //Used multiple "system.out"  instead of one for better readability
-        System.out.println("Possible calculations :");
-        System.out.println("(A)dd"); System.out.println("(S)ubtract");
-        System.out.println("(M)ultiply)");System.out.println("(D)ivide");
-
-        System.out.println("Please select an option :");
+        // Java Text Box.
+        menu= """
+                Possible Calculation :
+                (A)dd
+                (S)ubtract
+                (M)ultiply
+                (D)ivide
+                Please select an option :
+               """;
+        System.out.println(menu);
         operation = scanner.nextLine();
 
         //multiplying the floating point numbers
